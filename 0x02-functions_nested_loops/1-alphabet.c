@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - function that prints the aplhabet
+ * print_alphabet - function that prints the aplhabet
  *
  */
 
