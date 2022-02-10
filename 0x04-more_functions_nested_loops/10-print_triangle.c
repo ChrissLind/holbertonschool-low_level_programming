@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_triangle - Function that prints a triangle.
  * @size: size of the triangle.
  * Return: 0
@@ -16,7 +15,7 @@ void print_triangle(int size)
 		{
 			if (y <= size - x)
 				_putchar(' ');
-			else 
+			else
 				_putchar('#');
 		}
 		_putchar('\n');
