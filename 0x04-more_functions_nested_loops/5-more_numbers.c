@@ -3,18 +3,22 @@
 /**
  * more_numbers - prints zero to fourteen ten times
  *
+ * Return: 0
  */
 
 void more_numbers(void)
 {
 	int i, k;
-	for (i = 0; i < 15; i++)
+
+	for (i = 0; i <= 9; i++)
 	{
-		for (k = i; k >= 0; k--)
+		for (k = 0; k <= 14; k++)
 		{
-			_putchar(k + '0');
+			if (k > 9)
+				_putchar(k / 10 + '0');
+			_putchar(k % 10 + '0');
 		}
-		_putchar(i + '0');
-	_putchar('\n');
+		_putchar('\n');
 	}
+
 }
