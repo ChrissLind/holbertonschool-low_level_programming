@@ -3,7 +3,6 @@
 /**
  * _puts - Function that prints a string, followed by a new line.
  *
- *
  * @str: String being printed.
  *
  * Return: 0
