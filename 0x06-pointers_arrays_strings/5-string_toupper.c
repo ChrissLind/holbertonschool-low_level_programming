@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
+ * *string_toupper - Function that turns lowercase to uppercase.
  *
- *
- *
- * @
+ * @a: String
  *
  * Return: 0
  */
