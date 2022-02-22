@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memset - Function that fills memory with a consistant byte.
+ * *_memcpy - Function that fills memory with a consistant byte.
  *
  * @dest: destination
  * @src: source
