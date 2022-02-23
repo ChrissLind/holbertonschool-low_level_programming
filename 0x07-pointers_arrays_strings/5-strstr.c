@@ -3,8 +3,8 @@
 /**
  * _strstr - Function that locates a substring.
  *
- * @haystack:
- * @needle:
+ * @haystack: original string
+ * @needle: substring
  *
  * Return: 0
  */
@@ -15,7 +15,7 @@ char *_strstr(char *haystack, char *needle)
 
 	for (index = 0; haystack[index]; index++)
 	{
-		if (haystack[index] == needle [0])
+		if (haystack[index] == needle[0])
 		{
 			for (bruh = 0; needle[bruh]; bruh++)
 			{
