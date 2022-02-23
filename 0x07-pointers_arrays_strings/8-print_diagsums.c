@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- *
  * print_diagsums - Function that prints the sum of two diagonals
- * of a square matrix of integers. 
+ * of a square matrix of integers.
  *
  * @a: The matrix
  * @size: Size of matrix
