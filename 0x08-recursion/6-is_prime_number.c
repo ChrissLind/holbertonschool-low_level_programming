@@ -4,7 +4,7 @@
  * is_prime_number - Function that returns 1 if the number is a prime number.
  *
  * @n: Number
- *
+ * Return: 0
  */
 
 int is_prime_number(int n)
