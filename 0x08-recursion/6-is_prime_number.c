@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
+ * is_prime_number - Function that returns 1 if the number is a prime number.
  *
- *
- *
+ * @n: Number
  *
  */
 
