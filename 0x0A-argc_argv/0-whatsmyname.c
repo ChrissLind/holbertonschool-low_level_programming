@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - Program that prints its name.
- *
- *
+ * @argc: Count of arguments
+ * @argv: Array of pointers to strings
+ * Return: 0
  */
 
 int main(int __attribute__((unused))argc, char *argv[])
