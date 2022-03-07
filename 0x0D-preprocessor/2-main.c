@@ -9,5 +9,7 @@
 
 int main(void)
 {
-	printf("%d" __FILE__);
+	printf("%s" __FILE__);
+
+	return (0);
 }
