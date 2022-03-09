@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "dog.h"
 
- char *_strdup(char *str);
+char *_strdup(char *str);
 
  /**
   * new_dog - Function that creates a new dog.
@@ -13,7 +13,7 @@
   * Return: 0
   */
 
- dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *p = NULL;
 
@@ -46,7 +46,7 @@
 }
 
 /**
- * _strdup - Function that returns a pointer to a newly allocated space in 
+ * _strdup - Function that returns a pointer to a newly allocated space in
  * memory, that is a duplicate of the string.
  * @str: String
  *
@@ -57,6 +57,7 @@ char *_strdup(char *str)
 {
 	char *ptr;
 	int len;
+
 	if (str == NULL)
 		return (NULL);
 
