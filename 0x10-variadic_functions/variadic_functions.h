@@ -3,6 +3,13 @@
 
 #include <stdarg.h>
 
+/**
+ * struct printer - A new struct type for a printer.
+ * @symbol: A symbol for a data type.
+ * @print: A function pointer to a function that prints a data type.
+ *
+ */
+
 typedef struct printer
 {
 	char *symbol;
