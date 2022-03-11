@@ -7,7 +7,7 @@
  *
  * @s1: String one.
  * @s2: String two.
- *
+ * @n: The maximum number of bytes of s2 to concatenate.
  * Return: NULL if function fails.
  *	Success - Pointer to the concatenated strings.
  */
