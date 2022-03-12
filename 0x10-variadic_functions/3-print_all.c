@@ -1,4 +1,5 @@
-/** File - 3-print_all.c
+/*
+ * File - 3-print_all.c
  * Made by: Chris Lind
  */
 
@@ -25,7 +26,7 @@ void print_char(va_list arg)
 }
 
 /**
- * print_int: Prints a int.
+ * print_int - Prints a int.
  * @arg: A list of arguments pointing to the integer being printed.
  */
 void print_int(va_list arg)
@@ -90,7 +91,7 @@ void print_all(const char * const format, ...)
 	{
 		j = 0;
 
-		while(j < 4 && (*(format + i) != *(funct[j].symbol)))
+		while (j < 4 && (*(format + i) != *(funct[j].symbol)))
 			j++;
 
 		if (j < 4)
