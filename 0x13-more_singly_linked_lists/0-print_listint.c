@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * list_len - Function that returns the elements of a list.
+ * print_listint - Function that returns the elements of a list.
  *
- * @list_t: List.
+ * @listint_t: List.
  *
  * Return: Elements.
  */
