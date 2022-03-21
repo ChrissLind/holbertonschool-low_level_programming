@@ -2,7 +2,7 @@
 /**
  * print_listint - Function that returns the elements of a list.
  *
- * @listint_t: List.
+ * @h: List.
  *
  * Return: Elements.
  */
