@@ -3,21 +3,25 @@
 /**
  * add_nodeint - Function that adds a node at the beginning of a list.
  *
- * @h: A pointer to the head of the listint_t list.
+ * @n: A pointer to the address of the head.
+ * @head: The integer of the new node.
  *
  * Return: The number of elements in the linked list.
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	size_t nodes = 0;
+	listint_t *new;
 
-	while (h)
-	{
-		nodes++;
-		h = h->next;
-	}
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
+		return (NULL);
 
-	return (nodes);
+	new->n = n;
+	new->next = *head;
+
+	*head = new;
+
+	return (new);
 
 }
