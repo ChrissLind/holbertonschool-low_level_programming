@@ -10,22 +10,23 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int k = 1;
-	unsigned int i = 0;
-	int c;
-	unsigned int len;
+	unsigned int num = 0, mult = 1;
+	int len;
 
-	len = strlen(b);
+	if (b == '\0')
+		return (0);
 
-	for (c = len - 1; c >= 0; c--)
+	for (len = 0; b[len];)
+		len++;
+
+	for (len -= 1; len >= 0; len--)
 	{
-		if (b[c] != '0' && b[c] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
-		if (b[c] == '1')
-		{
-			i += k;
-		}
-		k *= 2;
+
+		num += (b[len] - '0') * mult;
+		mult *= 2;
 	}
-	return (i);
+
+	return (num);
 }
