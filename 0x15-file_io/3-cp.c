@@ -81,8 +81,7 @@ int main(int argc, char *argv[])
 		w = write(optrun, buffer, r);
 		if (optrun == -1 || w == -1)
 		{
-			dprintf(STDERR_FILENO,
-					"Error: Can't write to %s\n", argv[2]);
+			dprintf(2, "Error: Can't write to %s\n", argv[2]);
 			free(buffer);
 			exit(99);
 		}
