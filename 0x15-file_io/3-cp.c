@@ -73,7 +73,8 @@ int main(int argc, char *argv[])
 	do {
 		if (opfrom == -1 || r == -1)
 		{
-			dprintf(2, "Error: Can't read from file %s\n", argv[1]);
+			dprintf(STDERR_FLIENO,
+				"Error: Can't read from file %s\n", argv[1]);
 			free(buffer);
 			exit(98);
 		}
