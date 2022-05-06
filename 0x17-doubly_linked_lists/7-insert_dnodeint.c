@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
  * insert_dnodeint_at_index - Inserts node at given position.
- * @h:
- * @idx:
- * @n:
- * Return:
+ * @h: h
+ * @idx: h
+ * @n: h
+ * Return: h
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -35,5 +35,5 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	tmp->next->prev = new;
 	tmp->next = new;
 
-	return(new);
+	return (new);
 }
