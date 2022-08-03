@@ -1,7 +1,8 @@
 # 0x00. C - Hello, World :earth_americas:
 This is the first project with the C language for Holberton School.
 
-Tasks :scroll:
+## Tasks :scroll:
+
 - **Preprocessor**
   - [0-preprocessor](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) Write a script that runs a C file through the preprocessor and save the result into another file.
 1. Write a script that compiles a C file but does not link.
