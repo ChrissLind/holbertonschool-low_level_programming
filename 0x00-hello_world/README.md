@@ -24,7 +24,8 @@ This is the first project with the C language for Holberton School.
 - **Size**
   - [6-size.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x00-hello_world/6-size.c) Write a C program that prints the size of various types on the computer it is compiled to run on.
 
-7. Blog post that explains all the steps of compilation.
+- **Blog**
+  - [What happens when you type gcc main.c ](https://www.linkedin.com/pulse/how-gcc-works-compiler-c-files-chris-lind/?trk=public_profile_article_view)
 
 - **Intel**
   - [100-intel](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x00-hello_world/100-intel) Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
