@@ -1,8 +1,8 @@
-# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
+# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming :floppy_disk:
 
 This is a repository containing programs written for the "low-level programming and algorithm" curriculum at Holberton School of Computer Science. 
 
-List of projects:
+List of projects: :book:
 - [0x00. C - Hello, World](https://github.com/ChrissLind/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 - [0x01. C - Variables, if, else, while](https://github.com/ChrissLind/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while)
 - [0x02. C - Functions, nested loops](https://github.com/ChrissLind/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops)
@@ -31,5 +31,5 @@ List of projects:
 - [0x1A. C - Hash tables](https://github.com/ChrissLind/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
 - [0x1B. C - Sorting algorithms & Big O](https://github.com/ChrissLind/sorting_algorithms)
 
-# Author
+# Author 🖋️
 - Chris Lind <[ChrissLind](https://github.com/ChrissLind)>
