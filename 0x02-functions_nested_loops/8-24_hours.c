@@ -5,7 +5,6 @@
  *
  * Return: 0
  */
-
 void jack_bauer(void)
 {
 	int hr, min;

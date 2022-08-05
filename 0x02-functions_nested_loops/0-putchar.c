@@ -5,7 +5,6 @@
  *
  * Return: Function _putchar.c that prints a newline character.
  */
-
 int main(void)
 {
 	char string[] = "_putchar";

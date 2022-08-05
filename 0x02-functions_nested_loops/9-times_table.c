@@ -5,7 +5,6 @@
  *
  * Return: 0
  */
-
 void times_table(void)
 {
 	int a, b, product;

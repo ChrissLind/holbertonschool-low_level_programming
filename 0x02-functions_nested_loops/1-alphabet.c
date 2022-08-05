@@ -4,7 +4,6 @@
  * print_alphabet - function that prints the aplhabet
  *
  */
-
 void print_alphabet(void)
 {
 	char al;
