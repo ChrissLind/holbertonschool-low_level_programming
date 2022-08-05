@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * main - print 'putchar'
+ * main - Function that prints the string "_putchar"
  *
- * Return: 0
+ * Return: Function _putchar.c that prints a newline character.
  */
 
 int main(void)
 {
-	_putchar('_');
-		_putchar('p');
-		_putchar('u');
-		_putchar('t');
-		_putchar('c');
-		_putchar('h');
-		_putchar('a');
-		_putchar('r');
-		_putchar('\n');
+	char string[] = "_putchar";
+	int i;
 
-		return (0);
-
+	for (i = 0; string[i] != '\0'; i++)
+	{
+		_putchar(string[i]);
+	}
+	return(_putchar('\n'));
 }
