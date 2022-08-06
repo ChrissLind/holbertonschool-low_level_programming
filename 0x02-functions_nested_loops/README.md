@@ -26,10 +26,10 @@ In this project I work with nested loops. What are functions and the difference 
 - **6.There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you**
   - [6-abs.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/6-abs.c) A function that computes the absolute value of an integer.
 
-- **7.There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important **
+- **7.There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
   - [7-print_last_didgit.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/7-print_last_digit.c) A function that prints the last digit of a number.
 
-- **8.I'm federal agent Jack Bauer, and today is the longest day of my life **
+- **8.I'm federal agent Jack Bauer, and today is the longest day of my life**
   - [8-24_hours.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/8-24_hours.c) A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
 - **9.Learn your times table**
