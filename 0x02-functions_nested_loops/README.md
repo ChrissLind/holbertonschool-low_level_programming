@@ -45,7 +45,7 @@ In this project I work with nested loops. What are functions and the difference 
   - [100-times_table.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/100-times_table.c) A function that prints the `n` times table, starting at 0.
 
 - **13. Nature made the natural numbers; All else is the work of women**
- - [101-natural.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/101-natural.c) A function that lists all the natural number below `10` that ar multiples of `3` or `5`.
+  - [101-natural.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/101-natural.c) A function that lists all the natural number below `10` that ar multiples of `3` or `5`.
 
 - **14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A**
- - [102-fibonacci.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/102-fibonacci.c) A program that prints the first 50 Fionacci number, starting with `1` and `2`, followed by a new line.
+  - [102-fibonacci.c](https://github.com/ChrissLind/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/102-fibonacci.c) A program that prints the first 50 Fionacci number, starting with `1` and `2`, followed by a new line.
